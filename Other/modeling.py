@@ -179,7 +179,7 @@ class BertConfig(object):
     """Configuration class to store the configuration of a `BertModel`.
     """
     def __init__(self,
-                 vocab_size_or_config_json_file,
+                 vocab_size_or_config_json_file=-1,
                  hidden_size=768,
                  num_hidden_layers=12,
                  num_attention_heads=12,
